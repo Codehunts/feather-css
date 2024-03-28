@@ -1,0 +1,10 @@
+// _forms.scss
+.input-field {
+    margin-bottom: 10px;
+  }
+  
+  .button-primary {
+    @extend .button;
+    background-color: $success;
+  }
+  

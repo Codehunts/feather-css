@@ -1,0 +1,17 @@
+// _grid.scss
+.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    box-sizing: border-box;
+    flex: 1;
+    padding: 0 15px;
+  }
+  

@@ -1,0 +1,9 @@
+// Imports all the necessary components and utilities. It serves as the entry point for your framework.
+// base.scss
+@import 'utilities/variables';
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/grid';
+@import 'components/navbar';
+@import 'components/text';
+@import 'utilities/mixins';

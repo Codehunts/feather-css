@@ -1,0 +1,17 @@
+// _navbar.scss
+.navbar {
+    background-color: $primary;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  

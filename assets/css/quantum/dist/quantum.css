@@ -1,0 +1,181 @@
+.button, .button-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover, .button-primary:hover {
+  background-color: #217dbb;
+}
+
+.input-field {
+  margin-bottom: 10px;
+}
+
+.button-primary {
+  background-color: #28a745;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 0 15px;
+}
+
+.navbar {
+  background-color: #3498db;
+  padding: 10px;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.text-black-color {
+  color: #000000;
+}
+
+.text-white-color {
+  color: #ffffff;
+}
+
+.text-slate-color {
+  color: #2c3e50;
+}
+
+.text-gray-color {
+  color: #7f8c8d;
+}
+
+.text-zinc-color {
+  color: #95a5a6;
+}
+
+.text-neutral-color {
+  color: #bdc3c7;
+}
+
+.text-stone-color {
+  color: #808b96;
+}
+
+.text-red-color {
+  color: #e74c3c;
+}
+
+.text-orange-color {
+  color: #e67e22;
+}
+
+.text-amber-color {
+  color: #ffbf00;
+}
+
+.text-yellow-color {
+  color: #f1c40f;
+}
+
+.text-green-color {
+  color: #2ecc71;
+}
+
+.text-teal-color {
+  color: #008080;
+}
+
+.text-blue-color {
+  color: #3498db;
+}
+
+.text-indigo-color {
+  color: #4b0082;
+}
+
+.text-purple-color {
+  color: #9b59b6;
+}
+
+.text-pink-color {
+  color: #e91e63;
+}
+
+.text-brown-color {
+  color: #795548;
+}
+
+.text-maroon-color {
+  color: #800000;
+}
+
+.text-olive-color {
+  color: #808000;
+}
+
+.text-navy-color {
+  color: #000080;
+}
+
+.text-cyan-color {
+  color: #00bcd4;
+}
+
+.text-lime-color {
+  color: #cddc39;
+}
+
+.text-light-blue-color {
+  color: #87cefa;
+}
+
+.text-light-green-color {
+  color: #8bc34a;
+}
+
+.text-deep-orange-color {
+  color: #ff5722;
+}
+
+.text-deep-purple-color {
+  color: #673ab7;
+}
+
+.text-light-gray-color {
+  color: #d3d3d3;
+}
+
+.text-dark-gray-color {
+  color: #555555;
+}
+
+.text-dark-blue-color {
+  color: #001f3f;
+}
+
+.text-dark-green-color {
+  color: #006400;
+}
+
+.text-dark-red-color {
+  color: #8b0000;
+}
+
+/*# sourceMappingURL=quantum.css.map */

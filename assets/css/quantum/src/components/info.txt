@@ -1,0 +1,1 @@
+Contains individual SCSS files for each component of your framework. For example, buttons, forms, grid, navbar, etc. Break down your styles into modular components to enhance maintainability.

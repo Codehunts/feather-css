@@ -1,0 +1,1 @@
+Houses SCSS files for variables, mixins, functions, and other utilities that can be shared across components. This promotes consistency and ease of customization.

@@ -1,0 +1,19 @@
+
+// Example mixin
+// @mixin text-color($color, $opacity: 1) {
+//     color: rgba($color, $opacity);
+// }
+
+
+// .my-text {
+//     @include text-color($slate); // Default opacity is 1
+// }
+
+// .transparent-text {
+// @include text-color($red, 0.5); // Custom opacity (e.g., 50%)
+// }
+
+// .blue-text {
+// @include text-color($blue);
+// }
+  
