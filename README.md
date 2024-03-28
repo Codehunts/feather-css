@@ -3,7 +3,7 @@ A lightweight and modular CSS framework for building beautiful and responsive we
 
 # Custom CSS Font Size Utility
 
-## Font Sizes
+## Font Sizes (Text Size)
 
 - `ts-1`: 11px
 - `ts-2`: 13px
