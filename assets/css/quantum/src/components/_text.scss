@@ -1,4 +1,4 @@
-// Generate Text Colors
+
 @each $color-name, $color in $colors {
     .text-color-#{"" + $color-name} {
         color: $color;

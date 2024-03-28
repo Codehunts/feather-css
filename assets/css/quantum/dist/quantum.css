@@ -50,132 +50,344 @@
   text-decoration: underline;
 }
 
-.text-black-color {
+.text-color-black {
   color: #000000;
 }
 
-.text-white-color {
+.text-color-white {
   color: #ffffff;
 }
 
-.text-slate-color {
+.text-color-slate {
   color: #2c3e50;
 }
 
-.text-gray-color {
+.text-color-gray {
   color: #7f8c8d;
 }
 
-.text-zinc-color {
+.text-color-zinc {
   color: #95a5a6;
 }
 
-.text-neutral-color {
+.text-color-neutral {
   color: #bdc3c7;
 }
 
-.text-stone-color {
+.text-color-stone {
   color: #808b96;
 }
 
-.text-red-color {
+.text-color-red {
   color: #e74c3c;
 }
 
-.text-orange-color {
+.text-color-orange {
   color: #e67e22;
 }
 
-.text-amber-color {
+.text-color-amber {
   color: #ffbf00;
 }
 
-.text-yellow-color {
+.text-color-yellow {
   color: #f1c40f;
 }
 
-.text-green-color {
+.text-color-green {
   color: #2ecc71;
 }
 
-.text-teal-color {
+.text-color-teal {
   color: #008080;
 }
 
-.text-blue-color {
+.text-color-blue {
   color: #3498db;
 }
 
-.text-indigo-color {
+.text-color-indigo {
   color: #4b0082;
 }
 
-.text-purple-color {
+.text-color-purple {
   color: #9b59b6;
 }
 
-.text-pink-color {
+.text-color-pink {
   color: #e91e63;
 }
 
-.text-brown-color {
+.text-color-brown {
   color: #795548;
 }
 
-.text-maroon-color {
+.text-color-maroon {
   color: #800000;
 }
 
-.text-olive-color {
+.text-color-olive {
   color: #808000;
 }
 
-.text-navy-color {
+.text-color-navy {
   color: #000080;
 }
 
-.text-cyan-color {
+.text-color-cyan {
   color: #00bcd4;
 }
 
-.text-lime-color {
+.text-color-lime {
   color: #cddc39;
 }
 
-.text-light-blue-color {
+.text-color-light-blue {
   color: #87cefa;
 }
 
-.text-light-green-color {
+.text-color-light-green {
   color: #8bc34a;
 }
 
-.text-deep-orange-color {
+.text-color-deep-orange {
   color: #ff5722;
 }
 
-.text-deep-purple-color {
+.text-color-deep-purple {
   color: #673ab7;
 }
 
-.text-light-gray-color {
+.text-color-light-gray {
   color: #d3d3d3;
 }
 
-.text-dark-gray-color {
+.text-color-dark-gray {
   color: #555555;
 }
 
-.text-dark-blue-color {
+.text-color-dark-blue {
   color: #001f3f;
 }
 
-.text-dark-green-color {
+.text-color-dark-green {
   color: #006400;
 }
 
-.text-dark-red-color {
+.text-color-dark-red {
   color: #8b0000;
+}
+
+.text-level-10 {
+  opacity: 1;
+}
+
+.text-level-9 {
+  opacity: 0.9;
+}
+
+.text-level-8 {
+  opacity: 0.8;
+}
+
+.text-level-7 {
+  opacity: 0.7;
+}
+
+.text-level-6 {
+  opacity: 0.6;
+}
+
+.text-level-5 {
+  opacity: 0.5;
+}
+
+.text-level-4 {
+  opacity: 0.4;
+}
+
+.text-level-3 {
+  opacity: 0.3;
+}
+
+.text-level-2 {
+  opacity: 0.2;
+}
+
+.text-level-1 {
+  opacity: 0.1;
+}
+
+.ts-1 {
+  font-size: 11px;
+}
+
+.ts-2 {
+  font-size: 13px;
+}
+
+.ts-3 {
+  font-size: 15px;
+}
+
+.ts-4 {
+  font-size: 17px;
+}
+
+.ts-5 {
+  font-size: 19px;
+}
+
+@media (min-width: 576px) {
+  .ts-sm-1 {
+    font-size: 11px;
+  }
+  .ts-sm-2 {
+    font-size: 13px;
+  }
+  .ts-sm-3 {
+    font-size: 15px;
+  }
+  .ts-sm-4 {
+    font-size: 17px;
+  }
+  .ts-sm-5 {
+    font-size: 19px;
+  }
+}
+@media (min-width: 768px) {
+  .ts-md-1 {
+    font-size: 11px;
+  }
+  .ts-md-2 {
+    font-size: 13px;
+  }
+  .ts-md-3 {
+    font-size: 15px;
+  }
+  .ts-md-4 {
+    font-size: 17px;
+  }
+  .ts-md-5 {
+    font-size: 19px;
+  }
+}
+@media (min-width: 992px) {
+  .ts-lg-1 {
+    font-size: 11px;
+  }
+  .ts-lg-2 {
+    font-size: 13px;
+  }
+  .ts-lg-3 {
+    font-size: 15px;
+  }
+  .ts-lg-4 {
+    font-size: 17px;
+  }
+  .ts-lg-5 {
+    font-size: 19px;
+  }
+}
+@media (min-width: 1200px) {
+  .ts-xl-1 {
+    font-size: 11px;
+  }
+  .ts-xl-2 {
+    font-size: 13px;
+  }
+  .ts-xl-3 {
+    font-size: 15px;
+  }
+  .ts-xl-4 {
+    font-size: 17px;
+  }
+  .ts-xl-5 {
+    font-size: 19px;
+  }
+}
+.th-hs-1 {
+  font-size: 14px;
+}
+
+.th-hs-2 {
+  font-size: 20px;
+}
+
+.th-hs-3 {
+  font-size: 24px;
+}
+
+.th-hs-4 {
+  font-size: 30px;
+}
+
+.th-hs-5 {
+  font-size: 36px;
+}
+
+.text-weight-normal {
+  font-weight: 400;
+}
+
+.text-weight-bold {
+  font-weight: 700;
+}
+
+.text-weight-100 {
+  font-weight: 100;
+}
+
+.text-weight-200 {
+  font-weight: 200;
+}
+
+.text-weight-300 {
+  font-weight: 300;
+}
+
+.text-weight-500 {
+  font-weight: 500;
+}
+
+.text-weight-600 {
+  font-weight: 600;
+}
+
+.text-weight-800 {
+  font-weight: 800;
+}
+
+.text-weight-900 {
+  font-weight: 900;
+}
+
+.text-weight-lighter {
+  font-weight: lighter;
+}
+
+.text-weight-bolder {
+  font-weight: bolder;
+}
+
+.text-weight-inherit {
+  font-weight: inherit;
+}
+
+.text-weight-initial {
+  font-weight: initial;
+}
+
+.text-weight-revert {
+  font-weight: revert;
+}
+
+.text-weight-revert-layer {
+  font-weight: revert-layer;
+}
+
+.text-weight-unset {
+  font-weight: unset;
 }
 
 /*# sourceMappingURL=quantum.css.map */

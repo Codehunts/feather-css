@@ -46,3 +46,10 @@ $info: #17a2b8;
 $warning: #ffc107;
 $danger: #dc3545;
 $primary: #3498db;
+
+// Breakpoints for screen sizes
+
+$sm-breakpoint: 576px;  // Small devices
+$md-breakpoint: 768px;  // Medium devices
+$lg-breakpoint: 992px;  // Large devices
+$xl-breakpoint: 1200px; // Extra large devices
