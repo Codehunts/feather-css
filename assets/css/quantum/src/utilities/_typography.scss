@@ -128,13 +128,7 @@ $font-weights: (
   unset:unset
 );
 
-$heading-sizes: (
-  1: 14px,
-  2: 20px,
-  3: 24px,
-  4: 30px,
-  5: 36px,
-);
+
 
 @each $size, $value in $font-weights {
   .t-weight-#{$size} {
