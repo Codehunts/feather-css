@@ -6,7 +6,7 @@ A lightweight and modular CSS framework for building beautiful and responsive we
 
 
 * **Typography** (This section covers the utilities provided by feather-css for managing various aspects of text formatting.)
-    * [Text Size](#text-size)
+    * [Font Size](#text-size)
     * [Heading Size](#heading-size)
     * [Font Weight](#font-weight)
 
@@ -58,7 +58,7 @@ For different screen sizes, you can use the following classes:
 </div>
 ```
 
-## Heading Size <a name="heading-size"></a>
+# Heading Size <a name="heading-size"></a>
 This utility provides a set of CSS classes for easily managing heading sizes in your project. By default, these classes define globally consistent heading sizes. You can optionally use them responsively by adding specific classes for different screen sizes.
 
 ## Class Naming Convention
@@ -70,7 +70,7 @@ We use a clear and descriptive naming convention for heading size classes:
 
 
 
-## Font Sizes (Text Size)
+## Heading Sizes
 
 - `h-size-1`: 14px
 - `h-size-2`: 20px
@@ -110,26 +110,13 @@ This utitlity provides a set of CSS classes for easily controlling font weight a
 
 We use a clear and descriptive naming convention for Font Weight (Text Weight) classes:
 
-- **Base Classes:** `t-weight-*`followed by the desired font weight value (e.g., `t-weight-bold`, `t-weight-300`). 
-##Available font weights:
-This utility offers a range of font weight values for various use cases. You can also use keywords like `normal`, `bold`, `light`, etc,. as defined in CSS.
-Available Weight Options:
-- normal
-- bold
-- 100
-- 200
-- 300
-- 500
-- 600
-- 800
-- 900
-- light
-- bolder
-- inherit
-- initial
-- revert
-- revert-layer
-- unset
+- **Base Classes:** `t-weight-*` followed by the desired font weight value (e.g., `t-weight-bold`, `t-weight-300`).
+
+     **Available font weights:**
+      This utility offers a range of font weight values for various use cases. You can also use keywords like `normal`, `bold`, `light`, etc,. as defined in CSS.
+
+     **Available Weight Options:**
+      `normal`, `bold`, `100`, `200`, `300`, `500`, `600`, `800`, `900`, `light`, `bolder`, `inherit`, `initial`, `revert`, `revert-layer`, `unset`
 
 - **Responsive Suffixes:** `-sm` (small screens), `-md` (medium screens), `-lg` (large screens), `-xl` (extra large screens)
 
@@ -153,5 +140,5 @@ For different screen sizes, you can use the following classes:
 - `t-weight-xl-*`: for extra large screens
 
 ```html
-  <h2 class="t-weight-300 t-weight-md-bold">This heading has normal weight by default, bold on medium screens.</h2>
+  <p class="t-weight-300 t-weight-md-bold">This paragraph has normal weight by default, bold on medium screens.</p>
 ```
