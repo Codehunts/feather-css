@@ -86,7 +86,7 @@ $font-weights: (
 );
 
 @each $name, $value in $font-weights {
-  .text-weight-#{$name} {
+  .tw-#{$name} {
     font-weight: $value;
   }
 }

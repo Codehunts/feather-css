@@ -326,67 +326,67 @@
   font-size: 36px;
 }
 
-.text-weight-normal {
+.tw-normal {
   font-weight: 400;
 }
 
-.text-weight-bold {
+.tw-bold {
   font-weight: 700;
 }
 
-.text-weight-100 {
+.tw-100 {
   font-weight: 100;
 }
 
-.text-weight-200 {
+.tw-200 {
   font-weight: 200;
 }
 
-.text-weight-300 {
+.tw-300 {
   font-weight: 300;
 }
 
-.text-weight-500 {
+.tw-500 {
   font-weight: 500;
 }
 
-.text-weight-600 {
+.tw-600 {
   font-weight: 600;
 }
 
-.text-weight-800 {
+.tw-800 {
   font-weight: 800;
 }
 
-.text-weight-900 {
+.tw-900 {
   font-weight: 900;
 }
 
-.text-weight-lighter {
+.tw-lighter {
   font-weight: lighter;
 }
 
-.text-weight-bolder {
+.tw-bolder {
   font-weight: bolder;
 }
 
-.text-weight-inherit {
+.tw-inherit {
   font-weight: inherit;
 }
 
-.text-weight-initial {
+.tw-initial {
   font-weight: initial;
 }
 
-.text-weight-revert {
+.tw-revert {
   font-weight: revert;
 }
 
-.text-weight-revert-layer {
+.tw-revert-layer {
   font-weight: revert-layer;
 }
 
-.text-weight-unset {
+.tw-unset {
   font-weight: unset;
 }
 
