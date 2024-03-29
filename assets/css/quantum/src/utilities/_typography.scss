@@ -10,14 +10,14 @@ $font-sizes: (
 );
 
 @each $size, $value in $font-sizes {
-  .ts-#{$size} {
+  .t-size-#{$size} {
     font-size: $value;
   }
 }
 
 @media (min-width: #{$sm-breakpoint}) {
   @each $size, $value in $font-sizes {
-    .ts-sm-#{$size} {
+    .t-size-sm-#{$size} {
       font-size: $value;
     }
   }
@@ -25,7 +25,7 @@ $font-sizes: (
 
 @media (min-width: #{$md-breakpoint}) {
   @each $size, $value in $font-sizes {
-    .ts-md-#{$size} {
+    .t-size-md-#{$size} {
       font-size: $value;
     }
   }
@@ -33,7 +33,7 @@ $font-sizes: (
 
 @media (min-width: #{$lg-breakpoint}) {
   @each $size, $value in $font-sizes {
-    .ts-lg-#{$size} {
+    .t-size-lg-#{$size} {
       font-size: $value;
     }
   }
@@ -41,7 +41,7 @@ $font-sizes: (
 
 @media (min-width: #{$xl-breakpoint}) {
   @each $size, $value in $font-sizes {
-    .ts-xl-#{$size} {
+    .t-size-xl-#{$size} {
       font-size: $value;
     }
   }
@@ -60,7 +60,7 @@ $heading-sizes: (
 );
 
 @each $size, $value in $heading-sizes {
-    .th-#{$size} {
+    .t-heading-#{$size} {
       font-size: $value;
     }
 }

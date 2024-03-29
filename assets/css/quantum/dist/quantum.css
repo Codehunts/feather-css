@@ -218,111 +218,111 @@
   opacity: 0.1;
 }
 
-.ts-1 {
+.t-size-1 {
   font-size: 11px;
 }
 
-.ts-2 {
+.t-size-2 {
   font-size: 13px;
 }
 
-.ts-3 {
+.t-size-3 {
   font-size: 15px;
 }
 
-.ts-4 {
+.t-size-4 {
   font-size: 17px;
 }
 
-.ts-5 {
+.t-size-5 {
   font-size: 19px;
 }
 
 @media (min-width: 576px) {
-  .ts-sm-1 {
+  .t-size-sm-1 {
     font-size: 11px;
   }
-  .ts-sm-2 {
+  .t-size-sm-2 {
     font-size: 13px;
   }
-  .ts-sm-3 {
+  .t-size-sm-3 {
     font-size: 15px;
   }
-  .ts-sm-4 {
+  .t-size-sm-4 {
     font-size: 17px;
   }
-  .ts-sm-5 {
+  .t-size-sm-5 {
     font-size: 19px;
   }
 }
 @media (min-width: 768px) {
-  .ts-md-1 {
+  .t-size-md-1 {
     font-size: 11px;
   }
-  .ts-md-2 {
+  .t-size-md-2 {
     font-size: 13px;
   }
-  .ts-md-3 {
+  .t-size-md-3 {
     font-size: 15px;
   }
-  .ts-md-4 {
+  .t-size-md-4 {
     font-size: 17px;
   }
-  .ts-md-5 {
+  .t-size-md-5 {
     font-size: 19px;
   }
 }
 @media (min-width: 992px) {
-  .ts-lg-1 {
+  .t-size-lg-1 {
     font-size: 11px;
   }
-  .ts-lg-2 {
+  .t-size-lg-2 {
     font-size: 13px;
   }
-  .ts-lg-3 {
+  .t-size-lg-3 {
     font-size: 15px;
   }
-  .ts-lg-4 {
+  .t-size-lg-4 {
     font-size: 17px;
   }
-  .ts-lg-5 {
+  .t-size-lg-5 {
     font-size: 19px;
   }
 }
 @media (min-width: 1200px) {
-  .ts-xl-1 {
+  .t-size-xl-1 {
     font-size: 11px;
   }
-  .ts-xl-2 {
+  .t-size-xl-2 {
     font-size: 13px;
   }
-  .ts-xl-3 {
+  .t-size-xl-3 {
     font-size: 15px;
   }
-  .ts-xl-4 {
+  .t-size-xl-4 {
     font-size: 17px;
   }
-  .ts-xl-5 {
+  .t-size-xl-5 {
     font-size: 19px;
   }
 }
-.th-hs-1 {
+.t-heading-hs-1 {
   font-size: 14px;
 }
 
-.th-hs-2 {
+.t-heading-hs-2 {
   font-size: 20px;
 }
 
-.th-hs-3 {
+.t-heading-hs-3 {
   font-size: 24px;
 }
 
-.th-hs-4 {
+.t-heading-hs-4 {
   font-size: 30px;
 }
 
-.th-hs-5 {
+.t-heading-hs-5 {
   font-size: 36px;
 }
 
