@@ -1,6 +1,8 @@
 @import 'variables';
 
-// Font Sizes
+//**************************
+//      Font Sizes
+//**************************
 $font-sizes: (
   1: 11px,
   2: 13px,
@@ -48,24 +50,65 @@ $font-sizes: (
 }
 
 
+//**************************
+//      Heading Sizes
+//**************************
 
-
-// Heading Sizes
 $heading-sizes: (
-  hs-1: 14px,
-  hs-2: 20px,
-  hs-3: 24px,
-  hs-4: 30px,
-  hs-5: 36px,
+  1: 14px,
+  2: 20px,
+  3: 24px,
+  4: 30px,
+  5: 36px,
 );
 
 @each $size, $value in $heading-sizes {
-    .t-heading-#{$size} {
-      font-size: $value;
-    }
+  .h-size-#{$size} {
+    font-size: $value;
+  }
 }
 
-// Font Weight
+
+@media (min-width: #{$sm-breakpoint}) {
+  @each $size, $value in $heading-sizes {
+    .h-size-sm-#{$size} {
+      font-size: $value;
+    }
+  }
+}
+
+@media (min-width: #{$md-breakpoint}) {
+  @each $size, $value in $heading-sizes {
+    .h-size-md-#{$size} {
+      font-size: $value;
+    }
+  }
+}
+
+@media (min-width: #{$lg-breakpoint}) {
+  @each $size, $value in $heading-sizes {
+    .h-size-lg-#{$size} {
+      font-size: $value;
+    }
+  }
+}
+
+@media (min-width: #{$xl-breakpoint}) {
+  @each $size, $value in $heading-sizes {
+    .h-size-xl-#{$size} {
+      font-size: $value;
+    }
+  }
+}
+
+
+
+
+
+//**************************
+//      Font Weight
+//**************************
+
 $font-weights: (
   normal: 400,
   bold: 700,
@@ -76,7 +119,7 @@ $font-weights: (
   600: 600,
   800: 800,
   900: 900,
-  lighter: lighter,
+  light: lighter,
   bolder: bolder,
   inherit: inherit,
   initial: initial,
@@ -85,8 +128,49 @@ $font-weights: (
   unset:unset
 );
 
-@each $name, $value in $font-weights {
-  .tw-#{$name} {
+$heading-sizes: (
+  1: 14px,
+  2: 20px,
+  3: 24px,
+  4: 30px,
+  5: 36px,
+);
+
+@each $size, $value in $font-weights {
+  .t-weight-#{$size} {
     font-weight: $value;
+  }
+}
+
+
+@media (min-width: #{$sm-breakpoint}) {
+  @each $size, $value in $font-weights {
+    .t-weiht-sm-#{$size} {
+      font-weight: $value;
+    }
+  }
+}
+
+@media (min-width: #{$md-breakpoint}) {
+  @each $size, $value in $font-weights {
+    .t-weiht-md-#{$size} {
+      font-weight: $value;
+    }
+  }
+}
+
+@media (min-width: #{$lg-breakpoint}) {
+  @each $size, $value in $font-weights {
+    .t-weiht-lg-#{$size} {
+      font-weight: $value;
+    }
+  }
+}
+
+@media (min-width: #{$xl-breakpoint}) {
+  @each $size, $value in $font-weights {
+    .t-weiht-xl-#{$size} {
+      font-weight: $value;
+    }
   }
 }
