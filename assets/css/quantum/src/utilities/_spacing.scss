@@ -1,0 +1,477 @@
+@import 'variables';
+
+//margin//
+$margin: (
+1: 5px,
+2: 10px,
+3: 15px,
+4: 20px,
+5: 25px,
+);
+
+@each $scale, $value in $margin {
+    .m-scale-#{$scale} {
+      margin: $value;
+    }
+  }
+  
+  @media (min-width: #{$sm-breakpoint}) {
+    @each $scale, $value in $margin {
+      .m-scale-sm-#{$scale} {
+        margin: $value;
+      }
+    }
+  }
+  
+  @media (min-width: #{$sm-breakpoint}) {
+    @each $scale, $value in $margin {
+      .m-scale-md-#{$scale} {
+        margin: $value;
+      }
+    }
+  }
+  
+  @media (min-width: #{$sm-breakpoint}) {
+    @each $scale, $value in $margin {
+      .m-scale-lg-#{$scale} {
+        margin: $value;
+      }
+    }
+  }
+  
+  @media (min-width: #{$sm-breakpoint}) {
+    @each $scale, $value in $margin {
+      .m-scale-xl-#{$scale} {
+        margin: $value;
+      }
+    }
+  }
+
+ 
+  //margin-left//
+  $margin-left: (
+    1: 5px,
+    2: 10px,
+    3: 15px,
+    4: 20px,
+    5: 25px,
+    );
+    
+    @each $scale, $value in $margin-left {
+        .m-l-scale-#{$scale} {
+          margin-left: $value;
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-left {
+          .m-l-scale-sm-#{$scale} {
+            margin-left: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-left {
+          .m-l-scale-md-#{$scale} {
+            margin-left: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-left {
+          .m-l-scale-lg-#{$scale} {
+            margin-left: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-left {
+          .m-l-scale-xl-#{$scale} {
+            margin-left: $value;
+          }
+        }
+      }
+
+      //margin-right//
+  $margin-right: (
+    1: 5px,
+    2: 10px,
+    3: 15px,
+    4: 20px,
+    5: 25px,
+    );
+    
+    @each $scale, $value in $margin-right {
+        .m-r-scale-#{$scale} {
+          margin-right: $value;
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-right {
+          .m-r-scale-sm-#{$scale} {
+            margin-right: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-right {
+          .m-r-scale-md-#{$scale} {
+            margin-right: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-right {
+          .m-r-scale-lg-#{$scale} {
+            margin-right: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-right {
+          .m-r-scale-xl-#{$scale} {
+            margin-right: $value;
+          }
+        }
+      }
+
+      //margin-top//
+  $margin-top: (
+    1: 5px,
+    2: 10px,
+    3: 15px,
+    4: 20px,
+    5: 25px,
+    );
+    
+    @each $scale, $value in $margin-top {
+        .m-t-scale-#{$scale} {
+          margin-top: $value;
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-top {
+          .m-t-scale-sm-#{$scale} {
+            margin-top: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-top {
+          .m-t-scale-md-#{$scale} {
+            margin-top: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-top {
+          .m-t-scale-lg-#{$scale} {
+            margin-top: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-top {
+          .m-t-scale-xl-#{$scale} {
+            margin-top: $value;
+          }
+        }
+      }
+
+
+      //margin-bottom//
+  $margin-bottom: (
+    1: 5px,
+    2: 10px,
+    3: 15px,
+    4: 20px,
+    5: 25px,
+    );
+    
+    @each $scale, $value in $margin-bottom {
+        .m-l-scale-#{$scale} {
+          margin-bottom: $value;
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-bottom {
+          .m-l-scale-sm-#{$scale} {
+            margin-bottom: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-bottom {
+          .m-l-scale-md-#{$scale} {
+            margin-bottom: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-bottom {
+          .m-l-scale-lg-#{$scale} {
+            margin-bottom: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $margin-bottom {
+          .m-l-scale-xl-#{$scale} {
+            margin-bottom: $value;
+          }
+        }
+      }
+
+   //padding//
+  $padding: (
+    1: 5px,
+    2: 10px,
+    3: 15px,
+    4: 20px,
+    5: 25px,
+    );
+    
+    @each $scale, $value in $padding {
+        .p-scale-#{$scale} {
+          padding: $value;
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding {
+          .p-scale-sm-#{$scale} {
+            padding: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding {
+          .p-scale-md-#{$scale} {
+            padding: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding {
+          .p-scale-lg-#{$scale} {
+            padding: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding {
+          .p-scale-xl-#{$scale} {
+            padding: $value;
+          }
+        }
+      }  
+      
+    
+    //padding-left//
+  $padding-left: (
+    1: 5px,
+    2: 10px,
+    3: 15px,
+    4: 20px,
+    5: 25px,
+    );
+    
+    @each $scale, $value in $padding-left {
+        .p-l-scale-#{$scale} {
+          padding-left: $value;
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-left {
+          .p-l-scale-#{$scale} {
+            padding-left: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-left {
+          .p-l-scale-md-#{$scale} {
+            padding-left: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-left {
+          .p-l-scale-lg-#{$scale} {
+            padding-left: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-left {
+          .p-l-scale-xl-#{$scale} {
+            padding-left: $value;
+          }
+        }
+      }  
+
+    
+    //padding-right//
+  $padding-right: (
+    1: 5px,
+    2: 10px,
+    3: 15px,
+    4: 20px,
+    5: 25px,
+    );
+    
+    @each $scale, $value in $padding-right {
+        .p-r-scale-#{$scale} {
+          padding-right: $value;
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-right {
+          .p-r-scale-sm-#{$scale} {
+            padding-right: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-right {
+          .p-r-scale-md-#{$scale} {
+            padding-right: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-right {
+          .p-r-scale-lg-#{$scale} {
+            padding-right: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-right {
+          .p-r-scale-xl-#{$scale} {
+            padding-right: $value;
+          }
+        }
+      }
+      
+    
+    //padding-top//
+  $padding-top: (
+    1: 5px,
+    2: 10px,
+    3: 15px,
+    4: 20px,
+    5: 25px,
+    );
+    
+    @each $scale, $value in $padding-top {
+        .p-t-scale-#{$scale} {
+          padding-top: $value;
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-top {
+          .p-t-scale-sm-#{$scale} {
+            padding-top: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-top {
+          .p-t-scale-md-#{$scale} {
+            padding-top: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-top {
+          .p-t-scale-lg-#{$scale} {
+            padding-top: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-top {
+          .p-t-scale-xl-#{$scale} {
+            padding-top: $value;
+          }
+        }
+      } 
+      
+  
+    //padding-bottom//
+  $padding-bottom: (
+    1: 5px,
+    2: 10px,
+    3: 15px,
+    4: 20px,
+    5: 25px,
+    );
+    
+    @each $scale, $value in $padding-bottom {
+        .p-b-scale-#{$scale} {
+          padding-bottom: $value;
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-bottom {
+          .p-b-scale-sm-#{$scale} {
+            padding-bottom: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-bottom {
+          .p-b-scale-md-#{$scale} {
+            padding-bottom: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-bottom {
+          .p-b-scale-lg-#{$scale} {
+            padding-bottom: $value;
+          }
+        }
+      }
+      
+      @media (min-width: #{$sm-breakpoint}) {
+        @each $scale, $value in $padding-bottom {
+          .p-b-scale-xl-#{$scale} {
+            padding-bottom: $value;
+          }
+        }
+      }
